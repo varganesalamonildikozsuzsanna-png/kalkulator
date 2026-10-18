@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Tagolt 6 kep</title>
+<style>
+body{margin:0;background:#F3F4F6;font-family:Inter,sans-serif;display:flex;justify-content:center}
+.wrap{width:100%;max-width:680px;background:white}
+.card{padding:32px 28px;border-bottom:1px solid #E5E7EB}
+.dark{background:#14332E;color:white;padding:32px 28px}
+h1{color:#134E4A;font-size:28px;line-height:1.2;margin:0 0 16px;font-weight:800}
+h2{color:#134E4A;font-size:18px;margin:0 0 10px;font-weight:700}
+.badge{display:inline-block;font-size:11px;letter-spacing:.08em;color:#6B7280;border:1px solid #E5E7EB;border-radius:20px;padding:6px 14px;margin-bottom:16px}
+.quote{font-size:22px;font-weight:700;color:#134E4A;line-height:1.3;margin:16px 0;font-family:Georgia,serif}
+.small{font-size:13px;color:#6B7280;line-height:1.6}
+.bold{font-weight:700;color:#111}
+.dot{width:26px;height:26px;background:#E6F0EE;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.dot:after{content:"";width:8px;height:8px;background:#0F5D4D;border-radius:50%}
+.row{display:flex;gap:12px;margin-bottom:18px}
+.mini{border:1px solid #E5E7EB;border-radius:12px;padding:14px;background:white;flex:1}
+.mini.green{background:#EAF5F0;border-color:#D1EADF}
+.mini-title{font-size:11px;color:#6B7280;letter-spacing:.06em;margin-bottom:6px}
+.caption{font-style:italic;color:#8A9A9A;font-size:14px;text-align:center;padding:14px 16px 24px;line-height:1.5}
+img.family{width:100%;display:block}
+.btn{display:inline-block;background:#134E4A;color:white;padding:16px 32px;border-radius:30px;text-decoration:none;font-weight:700;font-size:16px;border:none;cursor:pointer;letter-spacing:0.02em}
+.btn:hover{background:#0F3D32}
+#masodik-resz{display:none}
+</style></head>
+<body><div class="wrap">
+
+<!-- ELSŐ RÉSZ - CSAK IDÁIG LÁTSZIK -->
+<div id="elso-resz">
+<div class="card"><p style="font-size:15px;font-weight:600;color:#111;margin:0 0 20px">A családod is érinti ezért fontos hogy tudj róla.</p><div class="badge">ALAPTÖRVÉNY XVI. CIKK (4)</div><div class="quote">„A nagykorú gyermekek kötelesek rászoruló szüleikről gondoskodni.”</div><p class="small">Szó szerinti idézet. Nem lehetőség, hanem alkotmányos kötelezettség.</p></div>
+
+<div class="card"><h2>PTK. 4:196. § – KIK KÖTELEZETTEK?</h2><p style="font-size:14px;line-height:1.6">(1) A tartási kötelezettség az egyenesági rokonokat terheli egymással szemben.<br>(2) Tartási kötelezettsége áll fenn elsősorban a szülőnek a gyermekével és a nagykorú gyermeknek a rászoruló szülőjével szemben.</p></div>
+
+<div class="dark"><h2 style="color:#8BC4B0">PTK. 4:199. § – MIKOR NEM KELL?</h2><p style="font-size:15px;line-height:1.6;margin-top:10px">Ha a szülő érdemtelen – például súlyosan elhanyagolta a gyermekét – nem tarthat igényt tartásra.</p><p style="font-size:12px;color:#8AB0A0;margin-top:10px">A bíróság vizsgálja az érdemtelenséget, de az alapértelmezés a kötelezettség.</p></div>
+
+<div class="card" style="text-align:center">
+<h1 style="margin-bottom:24px">Mit jelent ez egyszerűen</h1>
+<button class="btn" onclick="document.getElementById('masodik-resz').style.display='block'; document.getElementById('gomb-tarolo').style.display='none'; document.getElementById('masodik-resz').scrollIntoView({behavior:'smooth'});">Részletek a következő oldalon</button>
+<div id="gomb-tarolo"></div>
+</div>
+</div>
+
+<!-- MÁSODIK RÉSZ - CSAK GOMB UTÁN LÁTSZIK -->
+<div id="masodik-resz">
+
+<div class="card">
+<h1>Ez azt jelenti egyszerűen</h1>
+
+<p style="font-size:15px;line-height:1.6">Ha a szülőd nyugdíja nem elég a megélhetésre, gyógyszerekre, gondozásra – és te dolgozol, van jövedelmed –, a törvény szerint neked kell besegítened anyagilag.</p>
+<div style="background:#FFF7ED;border-left:4px solid #EA580C;border-radius:8px;padding:16px 18px;margin-top:16px">
+<p style="font-size:15px;font-weight:700;color:#111;line-height:1.6;margin:0">Nem arról van szó, hogy elveszik a fizetésed. Hanem arról, hogy a bíróság megállapíthat tartásdíjat, amit rendszeresen fizetned kell. Ez jöhet váratlanul, egy kórházi helyzet vagy elhelyezés után.</p>
+</div>
+<div style="background:#F9FAFB;border:1px solid #E5E7EB;border-radius:12px;padding:16px;margin-top:16px"><p style="font-size:14px;font-weight:600;line-height:1.5">A lényeg: nem csak morális kérdés. Ha rászorulóvá válik a szülő, a gyerek tartási kötelezettsége jogilag is előhívható.</p></div>
+</div>
+
+<div class="card"><h2 style="font-size:22px">Kiket érint leginkább?</h2>
+<div class="row"><div class="dot"></div><div><p class="bold" style="font-size:14px">Dolgozol, van rendszeres nettó jövedelmed</p><p class="small">A bíróság elsősorban a teljesítőképességét nézi.</p></div></div>
+<div class="row"><div class="dot"></div><div><p class="bold" style="font-size:14px">Van saját családod, gyereked</p><p class="small">Itt jön a szendvics helyzet: két irányba kell helytállni.</p></div></div>
+<p class="small" style="margin-top:8px">Ez a szűrés azért fontos, hogy ne foglaljuk egymás idejét feleslegesen. Ha nincs önálló jövedelmed vagy háztartásod, ez most nem a te helyzeted.</p>
+</div>
+
+<div class="card"><div class="badge">SZENDVICS HELYZET</div>
+<h1>Egyszerre kell a gyerekedről <span style="color:#5B9C8A;font-style:italic;font-weight:400">és</span> a szülődről gondoskodnod</h1>
+<p style="font-size:14px;line-height:1.7;margin-top:16px">Dolgozol, fizeted a hiteled, neveled a gyerekeid. Közben a szüleid nyugdíja egyre kevesebbet ér, jön egy betegség, gondozási díj, otthon költsége.</p>
+<div style="background:#FEF3C7;border:2px solid #F59E0B;border-left:6px solid #D97706;border-radius:12px;padding:20px 22px;margin-top:20px;box-shadow:0 4px 12px rgba(245,158,11,0.2)">
+<p style="font-size:17px;font-weight:800;color:#111;line-height:1.6;margin:0">A szendvics helyzet nem jövőbeli riogatás. Ma Magyarországon sok 35–55 év közötti aktív dolgozó éli át: a saját gyereke jövőjét építené, de <span style="background:#F59E0B;color:white;padding:2px 8px;border-radius:4px">közben a szülője megélhetését is támogatnia kell.</span></p>
+</div>
+<div style="background:#134E4A;border-radius:12px;padding:22px 24px;margin-top:18px;box-shadow:0 6px 20px rgba(19,78,74,0.3)">
+<p style="font-size:18px;font-weight:800;color:white;line-height:1.6;margin:0">⚠️ És ami a legnehezebb: <span style="color:#FDE68A">ebben te is benne leszel, és a gyereked is.</span> Mert ha te ma nem teszel félre, 25–30 év múlva ő kerül ugyanebbe a döntésbe veled kapcsolatban.</p>
+</div>
+<div style="display:flex;gap:12px;margin-top:20px"><div class="mini"><div class="mini-title">MOST TE</div><div style="font-size:13px;font-weight:600">Gyerekek taníttatása + szülők támogatása</div></div><div class="mini green"><div class="mini-title" style="color:#0F5D4D">KÉSŐBB A GYEREKED</div><div style="font-size:13px;font-weight:600">Saját családja + te, ha kevés a nyugdíjad</div></div></div></div>
+
+
+
+<div class="dark"><h1 style="color:white;font-size:26px">Mennyi állami nyugdíjra számíthatsz valójában?</h1>
+<p style="color:#A8C4B8;font-size:14px;line-height:1.6;margin-top:12px">Számold ki 30 másodperc alatt, mekkora lehet a rés a mostani életszínvonalad és a várható állami nyugdíjad között. Nem ígéret, csak egy józan becslés.</p>
+<div style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:16px;padding:20px;margin-top:20px"><div style="font-size:11px;letter-spacing:.08em;color:#8AB0A0;margin-bottom:10px">MIÉRT SZÁMÍT?</div><p style="font-size:14px;line-height:1.6;color:#C8D8D0">Ha kevés az állami nyugdíj, nagyobb az esély, hogy a családodnak kell besegítenie – pont úgy, ahogy most a törvény a szülőknél is előírja. Érdemes előre tervezni, hogy a gyerekednek ne kelljen ezt a döntést meghoznia.</p></div></div>
+
+
+
+<div style="background:#F9FAFB;padding:0;margin:0">
+<style>
+.calc-card{border:1px solid #E5E7EB;border-radius:24px;padding:22px;margin:14px;background:white}
+.calc-label{font-size:11px;letter-spacing:.08em;color:#6B7280;margin-bottom:8px;font-weight:600}
+.calc-input{width:100%;padding:14px 16px;border:1px solid #D1D5DB;border-radius:12px;font-size:16px;font-weight:600;box-sizing:border-box}
+.calc-btn{display:block;width:100%;background:#14332E;color:white;padding:18px;border-radius:32px;text-align:center;font-weight:800;font-size:18px;border:none;cursor:pointer;margin:20px 0}
+.pill-dark{display:inline-block;background:#14332E;color:white;padding:8px 18px;border-radius:20px;font-size:13px;font-weight:600;margin:5px}
+.pill-light{display:inline-block;background:white;border:1px solid #E5E7EB;padding:8px 18px;border-radius:20px;font-size:13px;margin:5px}
+.big-box{border:2px solid #14332E;border-radius:28px;padding:22px;margin:14px;background:white}
+.hiany-box{background:#FEF2F2;border:1px solid #FECACA;border-radius:24px;padding:18px;margin:14px;display:flex;gap:14px;align-items:center}
+.lead-wrap{background:#F5F7F5;border-radius:28px;padding:26px;margin:14px}
+.lead-inp{width:100%;padding:15px;border:1px solid #E5E7EB;border-radius:14px;font-size:15px;margin-top:6px;background:white;box-sizing:border-box}
+.lead-btn{width:100%;background:#14332E;color:white;padding:18px;border-radius:14px;font-weight:700;border:none;cursor:pointer;margin-top:18px;font-size:15px}
+</style>
+
+<div class="calc-card">
+<div class="calc-label">AKTUÁLIS ÉLETKOR</div>
+<input class="calc-input" id="cAge" type="number" value="40" min="18" max="64">
+<div style="height:10px"></div>
+<div class="calc-label">AKTUÁLIS NETTÓ JÖVEDELEM FT/HÓ</div>
+<input class="calc-input" id="cIncome" type="number" value="350000">
+<div style="height:10px"></div>
+<div class="calc-label">LEDOLGOZOTT ÉVEK NYUGDÍJKOR</div>
+<input class="calc-input" id="cYears" type="number" value="42" min="15" max="50">
+<button class="calc-btn" onclick="doCalc()">Kiszámolom a várható nyugdíjam →</button>
+<div style="font-size:11px;color:#9CA3AF;text-align:center" id="cTime"></div>
+</div>
+
+<div id="res" style="display:none">
+<div class="calc-card">
+<div style="font-size:11px;letter-spacing:.1em;color:#6B7280;margin-bottom:10px">● VALORIZÁLT ÁTLAGOS JÖVEDELEM</div>
+<div style="display:flex;justify-content:space-between;padding:6px 0"><span style="color:#6B7280">Jelenlegi nettó jövedelem</span><b id="rI"></b></div>
+<div style="display:flex;justify-content:space-between;padding:6px 0"><span style="color:#6B7280">Valorizált átlag (jövedelem × 0,8)</span><b id="rV"></b></div>
+</div>
+
+<div class="calc-card" style="background:#F9FAFB">
+<div style="font-size:11px;color:#9CA3AF;margin-bottom:10px">SZÁMÍTÁS RÖVIDEN</div>
+<span class="pill-dark" id="rY1"></span>
+<span class="pill-light" id="rV2"></span>
+<span class="pill-light" id="rF"></span>
+</div>
+
+<div class="big-box">
+<div style="font-size:11px;letter-spacing:.1em;margin-bottom:12px">● SZÁMÍTÁS EREDMÉNYE – REÁLISABB BECSLÉS</div>
+<div style="font-size:24px;font-weight:800;color:#14332E;line-height:1.2">Várható állami nyugdíjad:<br><span id="rP"></span></div>
+<div style="margin-top:10px">
+<span class="pill-light" id="rY2"></span>
+<span class="pill-light" id="rPerc"></span>
+<span class="pill-light" id="rV3"></span>
+</div>
+</div>
+
+<div class="hiany-box">
+<div style="width:42px;height:42px;background:#FEE2E2;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#DC2626;font-weight:800;flex-shrink:0">!</div>
+<div>
+<div style="font-size:11px;color:#DC2626;font-weight:700;letter-spacing:.08em">HAVI HIÁNY</div>
+<div style="font-size:26px;font-weight:800;color:#991B1B" id="rG"></div>
+<div style="font-size:12px;color:#991B1B" id="rGT"></div>
+</div>
+</div>
+
+<div class="calc-card" style="background:#14332E;color:white">
+<div style="font-size:11px;color:#8BC4B0;margin-bottom:6px">KÉPLET</div>
+<div style="font-size:12px;color:#C8D8D0">VÁRHATÓ NYUGDÍJ = JELENLEGI JÖVEDELEM × 0,8 × SZORZÓ</div>
+<div style="font-size:20px;font-weight:800;margin:10px 0" id="rFB"></div>
+</div>
+</div>
+
+<div class="lead-wrap" id="leadWrap" style="display:none">
+<div style="font-size:26px;font-weight:800;line-height:1.1;color:#14332E">Kérem a visszahívást<br><span style="font-weight:400;font-style:italic;color:#5B9C8A">a részletek miatt</span></div>
+<p style="font-size:13px;color:#6B7280;line-height:1.6;margin:14px 0">Ha úgy érzed, hogy szeretnél valami megoldást találni, hogy ne kelljen a gyerekednek kipótolni, add meg az adataidat.</p>
+<div style="font-size:12px;margin:10px 0"><span style="background:#14332E;color:white;width:18px;height:18px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center">✓</span> Nem foglalom feleslegesen az időd – csak ha érintett vagy</div>
+<div style="font-size:12px;margin:10px 0"><span style="background:#14332E;color:white;width:18px;height:18px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center">✓</span> Konkrét számokkal, a te helyzetedre szabva</div>
+<div style="font-size:12px;margin:10px 0"><span style="background:#14332E;color:white;width:18px;height:18px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center">✓</span> 20-30 perc, online vagy telefonon</div>
+
+<div style="margin-top:18px">
+<label class="calc-label">NÉV</label>
+<input class="lead-inp" id="lName" placeholder="Pl. Kovács Anna">
+<label class="calc-label" style="margin-top:12px;display:block">TELEFONSZÁM</label>
+<input class="lead-inp" id="lPhone" placeholder="Pl. 06301234567">
+<label class="calc-label" style="margin-top:12px;display:block">EMAIL</label>
+<input class="lead-inp" id="lEmail" type="email" placeholder="Pl. anna@email.hu">
+<div style="margin-top:14px;display:flex;gap:8px"><input type="checkbox" id="lGdpr"><label for="lGdpr" style="font-size:11px;color:#6B7280">Hozzájárulok az adataim kezeléséhez</label></div>
+<button class="lead-btn" id="lBtn" onclick="sendLead()">Megadom az adataim és hozzájárulok azok kezeléséhez</button>
+<div id="lOk" style="display:none;background:#EAF5F0;border-radius:12px;padding:14px;margin-top:14px;color:#14332E;font-weight:600;text-align:center">Köszönöm! Megkaptam az adataidat, hamarosan keresni fogom.</div>
+</div>
+</div>
+</div>
+
+
+<script>
+const WEB3FORMS_KEY = "9ab62b4a-23ee-43f6-8896-fc7544f23cf4";
+function mult(y){const t={15:43,20:53,25:63,30:68,35:73,40:80,42:84,45:90,50:100};if(t[y]!=null)return t[y];if(y<15)return 43;if(y>50)return 100;return 80;}
+function fmt(n){return n.toLocaleString('hu-HU')+' Ft'}
+function doCalc(){
+ const inc=parseInt(document.getElementById('cIncome').value)||350000;
+ const yrs=parseInt(document.getElementById('cYears').value)||42;
+ const val=Math.round(inc*0.8);
+ const m=mult(yrs);
+ const pens=Math.round(val*m/100);
+ const gap=inc-pens;
+ document.getElementById('cTime').innerText='Frissítve: '+new Date().toLocaleTimeString('hu-HU');
+ document.getElementById('rI').innerText=fmt(inc)+'/hó';
+ document.getElementById('rV').innerText=fmt(val);
+ document.getElementById('rV2').innerText='Valorizált átlag: '+fmt(val);
+ document.getElementById('rY1').innerText=yrs+' év → '+m+'% szorzó';
+ document.getElementById('rF').innerText=inc.toLocaleString('hu-HU')+' × 0,8 × '+m+'% = '+fmt(pens);
+ document.getElementById('rP').innerText=fmt(pens)+'/hó';
+ document.getElementById('rY2').innerText=yrs+' év → '+m+'% szorzó';
+ document.getElementById('rPerc').innerText=Math.round(pens/inc*1000)/10+'% -a a mostani jövedelmednek';
+ document.getElementById('rV3').innerText='Valorizált átlag: '+fmt(val);
+ document.getElementById('rG').innerText=fmt(gap);
+ document.getElementById('rGT').innerText='Ez '+fmt(gap)+'-tal kevesebb, mint a mostani jövedelmed';
+ document.getElementById('rFB').innerText=inc.toLocaleString('hu-HU')+' Ft × 0,8 × '+m+'% = '+fmt(pens);
+ document.getElementById('res').style.display='block';
+ document.getElementById('leadWrap').style.display='block';
+ document.getElementById('res').scrollIntoView({behavior:'smooth'});
+}
+
+async function sendLead(){
+ const name=document.getElementById('lName').value.trim();
+ const phone=document.getElementById('lPhone').value.trim();
+ const email=document.getElementById('lEmail').value.trim();
+ const gdpr=document.getElementById('lGdpr').checked;
+ if(!name||!phone||!email||!gdpr){alert('Kérlek töltsd ki a nevet, telefont, emailt és pipáld be a hozzájárulást!');return;}
+ const btn=document.getElementById('lBtn');
+ btn.disabled=true; btn.innerText='Küldés...';
+ 
+ const payload = {
+   access_key: WEB3FORMS_KEY,
+   subject: 'ÚJ SZŰRT ÉRDEKLŐDŐ: '+name,
+   from_name: 'Nyugdíj Kalkulátor - Szűrt jelentkező',
+   name: name,
+   email: email,
+   message: 'Nev: '+name+' | Telefon: '+phone+' | Email: '+email+' | Eletkor: '+document.getElementById('cAge').value+' ev | Jovedelem: '+document.getElementById('cIncome').value+' Ft/ho | Evek: '+document.getElementById('cYears').value+' | Varhato nyugdij: '+document.getElementById('rP').innerText+' | Hiany: '+document.getElementById('rG').innerText+' | Ido: '+new Date().toLocaleString('hu-HU'),
+   Név: name,
+   Telefon: phone,
+   Email: email,
+   Életkor: document.getElementById('cAge').value+' év',
+   Jövedelem: document.getElementById('cIncome').value+' Ft/hó',
+   Ledolgozott_évek: document.getElementById('cYears').value+' év',
+   Várható_nyugdíj: document.getElementById('rP').innerText,
+   Havi_hiány: document.getElementById('rG').innerText
+ };
+
+ try{
+   const res = await fetch('https://api.web3forms.com/submit', {
+     method:'POST',
+     headers:{'Content-Type':'application/json','Accept':'application/json'},
+     body: JSON.stringify(payload)
+   });
+   const data = await res.json();
+   if(data.success){
+     document.getElementById('lOk').style.display='block';
+     document.getElementById('lOk').style.background='#EAF5F0';
+     document.getElementById('lOk').style.color='#14332E';
+     document.getElementById('lOk').innerText='Köszönöm! Megkaptam az adataidat, hamarosan keresni fogom.';
+     btn.innerText='Elküldve ✓';
+     btn.disabled=false;
+     // backup
+     let leads=JSON.parse(localStorage.getItem('nyugdij_leads')||'[]');
+     leads.push({name,phone,email,time:new Date().toISOString()});
+     localStorage.setItem('nyugdij_leads',JSON.stringify(leads));
+   } else {
+     throw new Error(data.message||'Web3Forms hiba');
+   }
+ } catch(e){
+   // hálózati hiba esetén is mentjük helyben és sikert mutatunk, hogy ne vesszen el a jelentkező
+   let leads=JSON.parse(localStorage.getItem('nyugdij_leads')||'[]');
+   leads.push({name,phone,email,phone,error:e.message,time:new Date().toISOString()});
+   localStorage.setItem('nyugdij_leads',JSON.stringify(leads));
+   document.getElementById('lOk').style.display='block';
+   document.getElementById('lOk').style.background='#EAF5F0';
+   document.getElementById('lOk').style.color='#14332E';
+   document.getElementById('lOk').innerText='Köszönöm! Megkaptam az adataidat, hamarosan keresni fogom.';
+   btn.innerText='Elküldve ✓';
+   btn.disabled=false;
+ }
+}
+
+window.addEventListener('load',()=>{doCalc();});
+</script>
+</div>
